@@ -12,7 +12,7 @@ services:
     networks:
      - moodlenet
   moodle:
-    image: bitnami/moodle:4.1
+    image: bitnami/moodle:4.0
     restart: always
     ports:
       - 80:8080
